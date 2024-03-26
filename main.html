@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="container" id="buttons">
+        <button class="btn" data-sound="sound1">applause</button>
+        <button class="btn" data-sound="sound2">boo</button>
+        <button class="btn" data-sound="sound2">gasp</button>
+        <button class="btn" data-sound="sound2">tada</button>
+        <button class="btn" data-sound="sound2">victory</button>
+        <button class="btn" data-sound="sound2">wrong</button>
+        <button class="stop" data-sound="sound2">stop</button>
+    </div>
+    <audio id="sound1" src="sounds/Theatre Applause - QuickSounds.com.mp3"></audio>
+    <audio id="sound2" src="sounds/Theatre Applause - QuickSounds.com.mp3"></audio>
+    <script src="script.js"></script>
 </body>
-
 </html>
